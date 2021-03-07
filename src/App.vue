@@ -5,10 +5,6 @@
 </template>
 
 <style>
-html {
-  font-size: 100%;
-}
-
 #app {
   margin: auto;
   width: 90%;
@@ -17,6 +13,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
+  font-size: 100%;
 }
 
 .header {
@@ -26,7 +23,12 @@ html {
 }
 
 .subheader {
-  font-size: 1.8 rem;
+  font-size: 1.6rem;
   font-weight: bold;
+  margin: 0.2rem;
+}
+
+input {
+  font-size: 1.8rem;
 }
 </style>
