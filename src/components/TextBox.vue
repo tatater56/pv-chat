@@ -1,5 +1,5 @@
 <template>
-  <form id="textbox" @submit.prevent="signalSubmit">
+  <form id="textbox" @submit.prevent="signalSubmitted">
     <input :placeholder="placeholder" v-model="value" @input="signalChanged" />
   </form>
 </template>
