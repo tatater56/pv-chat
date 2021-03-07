@@ -8,6 +8,7 @@
 #app {
   margin: auto;
   width: 90%;
+  height: 100%;
   max-width: 600px;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
