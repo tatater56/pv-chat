@@ -1,6 +1,6 @@
 <template>
-  <form id="textbox" @submit.prevent="submitted">
-    <input :placeholder="placeholder" v-model="value" @input="changed" />
+  <form id="textbox" @submit.prevent="signalSubmit">
+    <input :placeholder="placeholder" v-model="value" @input="signalChange" />
   </form>
 </template>
 
@@ -16,10 +16,10 @@ export default {
     };
   },
   methods: {
-    submitted() {
+    signalSubmitted() {
       this.$emit("submitted", this.value);
     },
-    changed() {
+    signalChanged() {
       this.$emit("changed", this.value);
     }
   }
