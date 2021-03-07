@@ -24,4 +24,9 @@ html {
   font-weight: bold;
   margin-bottom: 20px;
 }
+
+.subheader {
+  font-size: 1.8 rem;
+  font-weight: bold;
+}
 </style>
