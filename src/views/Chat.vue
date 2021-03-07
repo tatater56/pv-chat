@@ -1,12 +1,11 @@
 <template>
-  <div class="chat">
+  <div id="chat">
     <h1>Chat</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Chat",
-  components: {}
+  name: "Chat"
 };
 </script>

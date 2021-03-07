@@ -4,7 +4,6 @@ import VueRouter from "vue-router";
 import Home from "@/views/Home.vue";
 import Chat from "@/views/Chat.vue";
 
-
 Vue.use(VueRouter);
 
 const routes = [
